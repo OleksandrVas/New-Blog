@@ -67,6 +67,8 @@ a {
     color: #3c4147;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
+    padding: 3px 10px ;
+    border: #1d2126 solid 2px ;
     
 }
 .menu-header > .home-header > a {
@@ -78,7 +80,7 @@ a {
 .menu-header > div > a:hover {
     border: 2px solid #3c4147;
     border-radius: 4px;
-    transition: 0.15s;
+    
     padding: 3px 10px ;
 }
 
@@ -110,7 +112,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    right: 15px;
+    right: 25px;
     top: 16px;
 }
 /* main */
@@ -127,6 +129,7 @@ a {
     font-size: 36px;
     font-family: 'Quattrocento Sans', sans-serif;
     margin-bottom: 20px;
+    letter-spacing: 3px;
 }
 .second-content {
     color: #ccd0d7;
