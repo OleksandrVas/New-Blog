@@ -106,7 +106,7 @@ a {
     height: 15px;
     position: absolute;
     background-color: white;
-    background-image: url(icon1.png);
+    background-image: url(img/icon1.png);
     background-position: center;
     background-repeat: no-repeat;
     border: none;
@@ -118,7 +118,7 @@ a {
     display: flex;
     align-items: center;
     height: 660px;
-    background-image: url(img1.png);
+    background-image: url(img/img1.png);
     background-repeat: no-repeat;
     background-position:center;
 }
