@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
@@ -16,68 +16,144 @@
     <title>Blog</title>
 </head>
 <body>
-    <header class="header">
+    <header  class="header">
         <div class="container">
             <div class="row">
-                <div class="row-footer">
-                    <div class="col-md-3">
-                            <div class="menu-logo">
-                                <a href=""> <img src="img/Logo.jpg" alt=""></a>
-                            </div>
+                <div class="col-xs-12 col-sm-2 col-md-3 logo-top">
+                    <div class="logo"><img src="img/Logo.jpg" alt=""></div>
                 </div>
-                <div class="col-md-7">
-                        <div class="menu-header">
-                            <div class="home-header"><a href="">HOME</a></div>
-                            <div class=""><a href="">ABOUT</a></div>
-                            <div class=""><a href="">WORK</a></div>
-                            <div class=""><a href="">TEAM</a></div>
-                            <div class=""><a href="">SERVICES</a></div>
-                            <div class=""><a href="">FEATURES</a></div>
-                            <div class=""><a href="">CONTACT</a></div>
-                        </div>
+                <div class="col-xs-12 col-sm-8 col-md-7 menu-top">
+                    <nav>
+                        <ul>
+                            <li><a href="" class="home-header">HOME</a></li>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="">WORK</a></li>
+                            <li><a href="">TEAM</a></li>
+                            <li><a href="">SERVICES</a></li>
+                            <li><a href="">FEATURES</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="col-md-2">
-                        <div class="search">
-                            <form action="">
-                                <input type="search" placeholder="SEARCH" class="search-string">
-                                <input type="button" class="search-button">
-                            </form>
-                        </div>
-                </div>
-                </div>
-                
-                    
+                <div class="col-xs-hidden col-sm-2 col-md-2  ">search</div>
             </div>
         </div>
     </header>
     <main>
-        <div class="slaider">
+        <section id="slaider">
             <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="slaidera">
-                        <div class="main-content">
-                            <div class="col-md-6">
-                                <div class="first-content">WELCOME OUR MARKETPLACE</div>
+                <div class="row">
+                    <div class="welcome-slaider">WELCOME TO OUR MARKETPLACE</div>
+                    <div class="welcome-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+                        non, ornare sagittis dolor. Nulla vestibulu lacus ...</div>
+                    <div class="welcome-button">
+                        <div><a href="">VIEW MORE</a></div>
+                        <div><a href="">VIDEO TOUR</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container new-position">
+                <div class="row">
+                    <div class="col-xs-12 ">
+                        <div class="modest-about">WE ARE MODEST.</div>
+                        
+                    </div>
+                    <div class="col-xs-7">
+                        <div>
+                            <div class="lorem-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. </div>
+                            <div class="lorem-about">Phasellus sollicitudin ante eros ornare, <span class="about-bolder">sit amet luctus lorem semper.</span> amet luctus lorem semper. Suspendisse posuere, quamdictum consectetur</div>
+                            <div class="about-social-media">
+                                <div><a href="" class="about-contact face"></a></div>
+                                <div><a href="" class="about-contact twit"></a></div>
+                                <div><a href="" class="about-contact gmail"></a></div>
+                                <div><a href="" class="about-contact ball "></a></div>
+                                <div><a href="" class="about-contact be"></a></div>
                             </div>
-                            <div class="col-md-7">
-                                <div class="second-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor
-                                non, ornare sagittis dolor. Nulla vestibulu lacus ...</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-5 new-margin">
+                        <div>
+                            <div class="about-right-5">
+                                <div >
+                                    <p class="about-number">01</p>
+                                </div>
+                                <div class="about-column">
+                                    <div>
+                                        <h2 class="about-dedication">DEDICATION TO THE CUSTEMERS</h2>
+                                    </div>
+                                    <div class="text-about">Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus.</div>
+                                </div>
                             </div>
-                            <div class="col-md-3 new-col">
-                                <div class="third-content">
-                                    <div><a href="">VIEW MORE</a></div>
-                                    <div><a href="">VIDEO TOUR</a></div>
+                            <div class="about-right-5">
+                                <div >
+                                    <p class="about-number">02</p>
+                                </div>
+                                <div class="about-column">
+                                    <div>
+                                        <h2 class="about-working">WORKING CLOSELY WITH OUR CLIENTS</h2>
+                                    </div>
+                                    <div class="text-about">Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus.</div>
+                                </div>
+                            </div>
+                            <div class="about-right-5">
+                                <div >
+                                    <p class="about-number">03</p>
+                                </div>
+                                <div class="about-column">
+                                    <div>
+                                        <h2 class="about-working">INCREASE HAPPINES</h2>
+                                    </div>
+                                    <div class="text-about">Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus.</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        
+        </section>
+        <section id="team">
+            <div class="container">
+                <div class="row new-row">
+                    <div class="team-all">
+                        <div class="col-xs-12 col-sm-8 meet-team"><div class="modest-about">MEET THE TEAM</div></div>
+                        <div class="col-xs-12 col-sm-6 col-md-12 team-view">
+                            <div class="meet-face">
+                                <div><img src="img/face1.png" alt=""></div>
+                                <div class="team-a">
+                                    <div class="name-team">Gloria Bromley</div>
+                                <div class="post-team">CEO and Founder</div>
+                                </div>
+                                <div>po pgoto</div>
+                            </div>
+                            <div class="meet-face">
+                                <div><img src="img/face2.png" alt=""></div>
+                                <div class="team-a">
+                                    <div class="name-team">PAUL TORES</div>
+                                <div class="post-team">Head of Development</div>
+                                </div>
+                                <div>po pgoto</div>
+                                <div class="meet-face">
+                                    <div><img src="img/face3.png" alt=""></div>
+                                    <div class="team-a">
+                                        <div class="name-team">JUDITH GILLETTE</div>
+                                    <div class="post-team">Graphic Desinger</div>
+                                    </div>
+                                    <div>po pgoto</div>
+                                    <div class="meet-face">
+                                        <div><img src="img/face4.png" alt=""></div>
+                                        <div class="team-a">
+                                            <div class="name-team">DOLORES REED </div>
+                                        <div class="post-team">Client Service Director</div>
+                                        </div>
+                                        <div>po pgoto</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
 </body>
 </html>
