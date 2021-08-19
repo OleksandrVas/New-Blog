@@ -36,6 +36,7 @@ body {
     max-width: 100%;
 }
 @media ( min-width:768px ) {
+    
     .header {
         align-items: center;
         display: flex;
@@ -119,8 +120,10 @@ body {
         font-family: 'Quattrocento Sans', sans-serif;
         color: white;
         margin-bottom: 20px;
+        margin-left: 15px;
     }
     .welcome-lorem{
+        margin-left: 15px;
         font-size: 13px;
         width: 75%;
         word-spacing: 0px;
@@ -131,6 +134,7 @@ body {
 
     }
     .welcome-button{
+        margin-left: 15px;
         display: flex;
         justify-content: space-between;
         width:30% ;
@@ -167,7 +171,10 @@ body {
         max-width: 41.66667%;
     }
     .col-sm-7 > div :first-child{
-        margin-bottom: 15px;
+        margin-bottom: 45px;
+    }
+    .modest-top {
+        margin-bottom: 0px;
     }
     .lorem-about {
         font-family: 'Open Sans', sans-serif;
@@ -181,10 +188,11 @@ body {
     .about-social-media{
         display: flex;
         flex-wrap: wrap;
+        margin-top: 35px;
         
     }
     .about-social-media  {
-        margin-top: 30px;
+        margin-top: 60px;
     }
     .about-contact {
         
@@ -217,6 +225,55 @@ body {
         background-position: center;
         background-repeat: no-repeat;
     }
+    .about-right-5{
+        display: flex;
+        margin-top: 5px;
+    }
+    .about-number {
+        background-color: #23b7a4;
+        font-family: 'Quattrocento Sans', sans-serif;
+        text-align: center;
+        line-height: 35px;
+        color: white;
+        width: 35px;
+        height: 35px;
+    }
+    .about-column {
+        margin-left: 10px;
+    }
+    .about-dedication{
+        font-family: 'Quattrocento Sans', sans-serif;
+        color:black;
+        font-weight: bolder;
+    }
+    .about-working {
+        color:black;
+        font-weight: bolder;
+    }
+    .text-about{
+        font-family: 'Open Sans', sans-serif;
+        color: #8d8f92;
+        word-spacing: 3px;
+    }
+    .new-margin{
+        margin-top: 15px;
+    }
+    /* team */
+    #team {
+        margin-top: 30px;
+    }
+    .col-sm-6{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .meet-face {
+        margin-top: 15px;
+    }
+    .team-a {
+        margin-left: 15%;
+    }
+
 
     ::-webkit-input-placeholder {
         font-size: 14px;
@@ -254,11 +311,41 @@ body {
     .container{
         max-width: 960px;
     }
+    .col-md-2 > button {
+        margin-right: 30px;
+    }
+    .welcome-lorem > p {
+        max-width: 500px;
+    }
+    .welcome-button {
+        width: 24%;
+    }
+    .col-sm-7 > div :first-child {
+        margin-bottom: 14px;
+    }
+    .team-view {
+        display: flex;
+        
+    }
+    .img-face {
+        width: 220px;
+    }
+    .meet-face {
+        margin-right:11px;
+    }
     
 }
 @media ( min-width:1200px ) {
     .container{
         max-width: 1140px;
+    }
+    #slaider {
+        background-image: url(img/img1.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 560px;
+        display: flex;
+        align-items: center;
     }
     .col-md-2 {
         flex: 0 0 16.66667%;
@@ -272,7 +359,33 @@ body {
         flex: 0 0 58.33333%;
         max-width: 58.33333%;
     }
+    .col-md-2 > button {
+        margin-right: 65px;
+    }
+    .welcome-slaider > h1 {
+        font-size: 36px;
+        font-family: 'Quattrocento Sans', sans-serif;
+    }
+    .welcome-lorem {
+        width: 80%;
+    }
+    .welcome-button {
+        width: 20%;
+    }
+    .about-social-media {
+        margin-top: 26px;
+    }
+    .img-face {
+        width: 263px;
+    }
+    .about-social-media {
+        margin-top: 38px;
+    }
+    .about-right-5 {
+        margin-top: 15px;
+    }
 }
+
 /* only mobile */
 @media ( max-width:767px ) {
     html, body {
