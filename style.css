@@ -119,6 +119,9 @@ body {
         align-items: center;
     }
     
+    .lorem-about {
+        font-family: 'Open Sans', sans-serif;
+    }
     .welcome-slaider {
         font-size: 23px;
         font-family: 'Quattrocento Sans', sans-serif;
@@ -242,6 +245,7 @@ body {
         color: white;
         width: 35px;
         height: 35px;
+        margin-right: 10px;
     }
     .about-column {
         margin-left: 10px;
@@ -272,14 +276,70 @@ body {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    .name-team {
+        font-family: 'Quattrocento Sans', sans-serif;
+        color: #292f36;
+        font-weight: 700;
+        margin-bottom: 3px;
+    }
+    .post-team {
+        font-family: 'Open Sans', sans-serif;
+        color: #8d8f92;
+    }
     .meet-face {
         margin-top: 15px;
     }
     .team-a {
-        margin-left: 15%;
+        padding-left: 15%;
     }
+    .new-margin {
+        margin-top: -75px;
+    }
+    /* .team-all>.team-view>.meet-face:hover{
+        background-color: #3a454d;
+        color: white;
+    } */
+    /* lovely work  */
 
-
+    #lovely-work {
+        margin-top: 70px;
+        background-color: #3a454d;
+    }
+    .row > .lovely-left {
+        justify-content: left;
+    }
+    .lovely-work-head{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        color: white;
+        font-family: 'Quattrocento Sans', sans-serif;
+        font-size: 26px;
+    }
+    .lovely-img {
+        margin-bottom:15px ;
+    }
+    .lovely-img > img {
+        width: 320px;
+    }
+    .guidlines {
+        display: none;
+    }
+    .lovely-work-bottom{
+        margin-bottom: 34px;
+        margin-top: 34px;
+    }   
+    .lovely-work-bottom > a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-family: 'Quattrocento Sans', sans-serif;
+        padding: 10px 15px ;
+        border: 2px solid white;
+        border-radius: 7px;
+    }
+    .lovely-work-bottom :hover {
+        background-color: #23b7a4;
+    }
     ::-webkit-input-placeholder {
         font-size: 14px;
         text-transform: uppercase;
@@ -338,11 +398,27 @@ body {
     .meet-face {
         margin-right:11px;
     }
-    
+    .new-margin{
+        margin-top: -45px;
+    }
+    .lovely-work-head{
+        font-size: 36px;
+    }
+    .lovely-img > img {
+        width: 390px;
+    }
 }
 @media ( min-width:1200px ) {
     .container{
         max-width: 1140px;
+    }
+    .welcome-lorem {
+        margin-bottom: 35px;
+        
+    }
+    .welcome-lorem > p {
+        font-size: 15px;
+        max-width: 650px;
     }
     #slaider {
         background-image: url(img/img1.png);
@@ -367,6 +443,10 @@ body {
     .col-md-2 > button {
         margin-right: 65px;
     }
+    #team {
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
     .welcome-slaider > h1 {
         font-size: 36px;
         font-family: 'Quattrocento Sans', sans-serif;
@@ -389,6 +469,41 @@ body {
     }
     .about-right-5 {
         margin-top: 15px;
+    }
+    .about-number {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .about-dedication {
+        margin-bottom: 10px;
+    }
+    .about-working {
+        margin-bottom: 10px;
+    }
+    .modest-top >.about-firts {
+        margin-top: 5px;
+    }
+    .lorem-about {
+        margin-top: 35px;
+    }
+    .new-margin{
+        margin-top: 10px;
+    }
+    .lovely-img > img {
+        width: 350px;
+    }
+    .lovely-work-head{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .lovely-work-bottom {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
 
@@ -623,5 +738,67 @@ body {
         font-size: 14px;
         color: #8d8f92;
         margin-bottom: 15px;
+    }
+    /* LOVELY - WORK */
+    #lovely-work {
+        margin-top: 50px;
+        background-color: #3a454d;
+        
+    }
+    .lovely-work-head {
+        margin-top: 45px;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Quattrocento Sans', sans-serif;
+        color: white;
+        margin-bottom: 25px;
+    }
+    #lovely-work > .container > .row > .col-xs-12 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lovely-img {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .lovely-img :hover {
+        background-color: #292f36;
+    }
+    .guidlines {
+        display: none;
+        position: absolute;
+        font-size: 18px;
+        font-family: 'Quattrocento Sans', sans-serif;
+        color: white;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        left: 0px;
+        padding-left: 15px;
+        bottom: 0px;
+    }
+    .guidlines :hover{
+        display: block;
+    }
+    .lovely-work-bottom {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .lovely-work-bottom > a  {
+        margin-top: 34px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Quattrocento Sans', sans-serif;
+        padding:15px 25px ;
+        border: white 2px solid;
+        border-radius: 7px;
+        font-size: 14px;
+    }
+    .lovely-work-bottom :hover {
+        background-color:#23b7a4 ;
+    }
+    .lovely-img > img  {
+        width: 290px;
     }
 }
