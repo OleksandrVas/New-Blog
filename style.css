@@ -443,8 +443,11 @@ body {
     .col-md-2 > button {
         margin-right: 65px;
     }
+    #about {
+        margin-top: 75px;
+    }
     #team {
-        margin-top: 90px;
+        margin-top: 170px;
         margin-bottom: 90px;
     }
     .welcome-slaider > h1 {
@@ -465,7 +468,7 @@ body {
     }
     
     .about-social-media {
-        margin-top: 38px;
+        margin-top: 70px;
     }
     .about-right-5 {
         margin-top: 15px;
@@ -486,9 +489,13 @@ body {
     }
     .lorem-about {
         margin-top: 35px;
+        line-height: 20px;
     }
     .new-margin{
         margin-top: 10px;
+    }
+    .new-margin > div {
+        margin-bottom: 50px;
     }
     .lovely-img > img {
         width: 350px;
@@ -504,6 +511,9 @@ body {
     .lovely-work-bottom {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    .modest-about{
+        margin-left: 25px;
     }
 }
 
