@@ -865,7 +865,7 @@ body {
     }
     .about-social-media{
         position: absolute;
-        bottom: -35px;
+        bottom: -65px;
         display: flex;
         flex-wrap: nowrap;
         margin-top: 25px;
@@ -949,12 +949,17 @@ body {
         display: block;
     }
     #team {
-        margin-top: 70px;
+        margin-top: 140px;
     }
     .team-all {
         text-align: center;
     }
-    
+    .modest-about{
+        margin-bottom: 50px ;
+    }
+    .meet-face{
+        margin-bottom: 40px;
+    }
     .team-a{
         text-align: left;
         margin-top: 10px;
@@ -979,12 +984,12 @@ body {
         
     }
     .lovely-work-head {
-        margin-top: 45px;
+        margin-top: 65px;
         text-align: center;
         font-size: 20px;
         font-family: 'Quattrocento Sans', sans-serif;
         color: white;
-        margin-bottom: 25px;
+        margin-bottom: 45px;
     }
     #lovely-work > .container > .row > .col-xs-12 {
         display: flex;
@@ -993,7 +998,7 @@ body {
     }
     .lovely-img {
         position: relative;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .lovely-img :hover {
         background-color: #292f36;
@@ -1015,8 +1020,8 @@ body {
         display: block;
     }
     .lovely-work-bottom {
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 35px;
+        margin-bottom: 55px;
     }
     .lovely-work-bottom > a  {
         margin-top: 34px;
@@ -1035,7 +1040,8 @@ body {
         width: 290px;
     }
     #what-we-do {
-        margin-top: 45px;
+        margin-top: 70px;
+        padding-bottom: 30px;
     }
     .what-do {
         text-transform: uppercase;
@@ -1093,7 +1099,7 @@ body {
     #features{
         margin-top: 45px;
         background-color: #3a454d;
-        padding-bottom: 60px;
+        padding-bottom: 70px;
     }
     .features {
         color: white;
@@ -1136,6 +1142,7 @@ body {
     }
     .stay-in-touch {
         margin-top: 35px;
+        margin-bottom: 50px;
     }
     .map-max-width {
         max-width: 100%;
@@ -1152,7 +1159,7 @@ body {
     .stay-text {
         margin-top: 30px;
         font-family: 'Quattrocento Sans', sans-serif;
-        font-size: 14px;
+        font-size: 13px;
         color: #8d8f92;
         line-height: 14px;
     }
