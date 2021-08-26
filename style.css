@@ -371,6 +371,142 @@ body {
         input::-webkit-search-results-decoration{
             display: none;
         }
+        /* what we do  */
+        #what-we-do {
+            margin-top: 45px;
+        }
+        
+        .what-do {
+            margin-left: 30px;
+            width: 100%;
+            margin-bottom: 45px;
+            text-align: left;
+            font-size: 30px;
+            font-family: 'Quattrocento Sans', sans-serif;
+            text-transform: uppercase;
+        }
+        #what-we-do > .container > .row > .fix-sm {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .description {
+            margin-bottom: 70px;
+            text-align: center;
+        }
+        .descript-icon{
+            width: 100%;
+            height: 50px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .first-desc {
+            background-image: url(img/icon12.png);
+        }
+        .second-desc{
+            background-image: url(img/icon14.png);
+        }
+        .third-desc{
+            background-image: url(img/icon11.png);
+        }
+        .fourth-desc{
+            background-image: url(img/icon13.png);
+        }
+        .description-what-we-do{
+            font-family: 'Quattrocento Sans', sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 35px;
+        }
+        .description-text > div {
+            margin-top: 25px;
+            font-size: 16px;
+            line-height: 26px;
+            font-family: 'Open Sans', sans-serif;
+            color: #8d8f92;
+            letter-spacing: normal;
+        }
+        /* FEATURES */
+        #features{
+            margin-top: 75px;
+            background-color:#3a454d;
+            padding-bottom: 50px;
+        }
+        .features {
+            color: white;
+            margin-top: 75px;
+            margin-bottom: 50px;
+        }
+        #features .container > .row > .fix-sm{
+            flex: 0 0 50%;
+            max-width: 50%;
+            
+        }
+        #features .container > .row > .fix-sm:last-child {
+            text-align: center;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        #features .container > .row > .fix-sm:last-child > .features-center {
+            max-width: 340px;
+            text-align: left;
+        }
+        .features-center {
+            margin-bottom: 50px;
+        }
+        .features-img >img {
+            width: 340px;
+        }
+        .features-product {
+            margin-top: 30px;
+            font-family: 'Quattrocento Sans', sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: white;
+        }
+        .features-text {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: #c7cacc;
+            margin-top: 25px;
+        }
+        /* stay-in-touch */
+        #stay-in-touch {
+            margin-top: 70px;
+        }
+        
+        .map-max-width{
+            width: 100%;
+        }
+        /* contact information  */
+        .contact-information {
+            margin-top: 50px;
+        }
+        .cntc-inf {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: 'Quattrocento Sans', sans-serif;
+            color: #292f36;
+        }
+        .stay-text {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: #8d8f92;
+            margin-top: 35px;
+        }
+        .stay-text > span {
+            color: black;
+            font-weight: bolder;
+        }
+        .stay-touch-btn {
+            margin-top: 40px;
+        }
+        .stay-touch-btn > a  {
+            background-color: #61ffea;
+            text-transform: uppercase;
+        }
+        
+
+
 }
 @media ( min-width:992px ) {
     .container{
@@ -407,7 +543,48 @@ body {
     .lovely-img > img {
         width: 390px;
     }
+    /* what we do  */
+    .what-do {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+    .description-text > div {
+        max-width: 300px;
+    }
+    /* features */
+    .features{
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    #features >.container > .row > .col-md-4 {
+        flex: 0 0 33.33334%;
+        max-width: 33.33334%;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #features >.container > .row > .col-md-4:last-child{
+        flex: 0 0 33.33334%;
+        max-width: 33.33334%;
+    }
+    .features-img > img {
+        width: 300px;
+    }
+    /* stay in touch */
+    .stay-in-touch {
+        margin-top: 20px;
+    }
+    .cntc-inf {
+        font-size: 22px;
+    }
+    .stay-text {
+        font-size: 17px
+    }
+    .lovely-work-bottom > a {
+        padding: 15px 20px;
+    }
+
 }
+
 @media ( min-width:1200px ) {
     .container{
         max-width: 1140px;
@@ -470,6 +647,11 @@ body {
     .about-social-media {
         margin-top: 70px;
     }
+    .about-contact {
+        padding: 15px 30px;
+        margin-right: 1px;
+        background-color: #c8cdd0;
+    }
     .about-right-5 {
         margin-top: 15px;
     }
@@ -488,8 +670,13 @@ body {
         margin-top: 5px;
     }
     .lorem-about {
+        font-family: 'Open Sans', sans-serif;
+        
         margin-top: 35px;
         line-height: 20px;
+    }
+    .modest-top{
+        margin-bottom: -10px;
     }
     .new-margin{
         margin-top: 10px;
@@ -516,6 +703,40 @@ body {
     }
     .modest-about{
         margin-left: 25px;
+    }
+    /* what we do  */
+
+    #what-we-do > .container > .row > .fix-sm {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .description-text > div {
+        max-width: 300px;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+    .features-img > img {
+        width: 360px;
+    }
+    /* fixed header  */
+    .header {
+        height: 80px;
+    }
+    .stay-text{
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    /* fix welcome button */
+    .row > .welcome-button {
+        width: 25%;
+    }
+    .welcome-button > div > a {
+        padding: 12px 28px ;
+    }
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
 
